@@ -17,7 +17,7 @@ const {
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 
 // Razorpay webhook: raw body must be preserved for signature verification.
